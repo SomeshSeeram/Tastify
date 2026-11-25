@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #1a1412;
+  color: #ffffff;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #110d0b;
+  padding: 15px 40px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #f4b41a;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+button {
+  background-color: #f4b41a;
+  color: #000000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+
+.hero {
+  background-color: #2b211c;
+  padding: 80px 40px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVPW9tv9JQnHKTYIMpbozEsb3DXTnpuKkjKM3jNbSyA&s=10);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 450px; */
+}
+
+.hero h2 {
+  color: #f4b41a;
+  font-style: italic;
+  margin: 0 0 10px 0;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero p {
+  margin: 15px 0 25px 0;
+  color: #dddddd;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5efe6;
+  color: #1a1412;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.info h5 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.menu-title {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #f4b41a;
+}
+
+
+.menu div {
+  background-color: #f4b41a;
+  /* color: #000000; */
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 100px;
+  width: 200px;
+  padding: 60px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background-color: #110d0b;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.pizza {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqV2Ql1y7ylN1ihB_uCKqHumvsRQrOrtfaOfeY4GsWQ&s=10);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.burger {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTUB8qHme1jZ9u8wVFVmZCEXk7h_6rTfxPDFfh6sk4QQ&s=10);
+    background-size: cover;
+    background-position: center;
+}
+.pasta {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQKDUMos1SYSii2OqZsQMGlOi1PafhtIPgmWyjE1i7A&s=10);
+    background-size: cover;
+    background-position: center;
+}
+
+.desserts {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr8T2rQgaBv84WYUcD-BaDqO2qU0Su1hQxnb0NIQ7mrQ&s=10);
+    background-size: cover;
+    background-position: center;
+}
